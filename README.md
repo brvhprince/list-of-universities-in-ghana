@@ -201,5 +201,6 @@ interface university {
 ## Reference Link
 https://en.wikipedia.org/wiki/List_of_universities_in_Ghana
 
-##LICENSE
+## LICENSE
+
 **MIT**
