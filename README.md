@@ -157,12 +157,12 @@ interface university {
 }
 ```
 
-## Installation
+## Custom Installation
 
 - Clone project
 
  ```shell script
-    git remote add my_awesome_regions https://github.com/brvhprince/regions-districts-in-ghana.git
+   git remote add my_awesome_universities https://github.com/brvhprince/list-of-universities-in-ghana.git
    ``` 
 - Run
 
@@ -186,9 +186,12 @@ interface university {
 
 - Start production server
 
- ```shell script
-     yarn start
-   ``` 
+   ```shell script
+       yarn start
+     ``` 
 
 ## Reference Link
-https://en.wikipedia.org/wiki/Districts_of_Ghana#List_of_Districts
+https://en.wikipedia.org/wiki/List_of_universities_in_Ghana
+
+##LICENSE
+**MIT**
