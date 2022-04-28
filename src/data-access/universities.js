@@ -401,297 +401,319 @@ const universities = [
         logo: ""
     },
     {
-        name: "",
+        name: "Central University College",
+        nickname: "CUC",
+        founded: 1998,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Catholic Institute of Business and Technology",
+        nickname: "CIBT",
+        founded: 2007,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Institute Of Accountancy Training",
+        nickname: "IAT",
+        founded: 1970,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Narh-Bita School of Nursing",
+        nickname: "Narh-Bita",
+        founded: 2008,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "St. Victor’s Seminary",
+        nickname: "SVMS",
+        founded: 1946,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "St. Peters Seminary",
+        nickname: "SPMS",
+        founded: 1957,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "St. Paul Seminary",
+        nickname: "SPCS",
+        founded: 1988,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Ghana Armed Forces Command and Staff College",
+        nickname: "GAFCSC",
+        founded: 1963,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "BlueCrest College",
+        nickname: "BCCG",
+        founded: 1999,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Ensign Global College",
+        nickname: "ECOPH",
+        founded: 2104,
+        location: "Kpong, Eastern",
+        logo: ""
+    },
+    {
+        name: "College of Science, Arts and Education",
+        nickname: "CSAE",
+        founded: 2016,
+        location: "Sunyani, Bono Region, Ghana",
+        logo: ""
+    },
+    {
+        name: "Osei Tutu II Institute for Advanced ICT Studies",
         nickname: "",
+        founded: 2003,
+        location: "Kumasi, Ashanti",
+        logo: "none",
+        type: "private"
+    },
+    {
+        name: "KAAF University College",
+        nickname: "KUC",
+        founded: 2007,
+        location: "Gomoa Buduburam, Central Region",
+        logo: ""
+    },
+    {
+        name: "Radford University College",
+        nickname: "Radford",
+        founded: 2009,
+        location: "Kumasi, Ashanti",
+        logo: ""
+    },
+    {
+        name: "Garden City University College",
+        nickname: "GCUC",
+        founded: 2001,
+        location: "Kumasi, Ashanti",
+        logo: ""
+    },
+    {
+        name: "Regent University College of Science and Technology",
+        nickname: "Regent",
+        founded: 2003,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Technical University College",
+        nickname: "TUC",
+        founded: 2001,
+        location: "Tamale, Northern Region",
+        logo: ""
+    },
+    {
+        name: "Spiritan University College",
+        nickname: "Spiritan",
+        founded: 1990,
+        location: "Ejisu, Ashanti",
+        logo: ""
+    },
+    {
+        name: "Data Link University College",
+        nickname: "DLUC",
+        founded: 2006,
+        location: "Tema, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "University College of Agriculture and Environmental Studies",
+        nickname: "UCAES",
+        founded: 1963,
+        location: "Bunso, Eastern Region",
+        logo: ""
+    },
+    {
+        name: "Mountcrest University College",
+        nickname: "MCUC",
+        founded: 2008,
+        location: "Kanda, Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Entrepreneurship Training Institute",
+        nickname: "ETI",
+        founded: 2005,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Deltas University College",
+        nickname: "DUC",
+        founded: 2009,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Evangelical Presbyterian University College",
+        nickname: "EPUC",
+        founded: 2008,
+        location: "Ho, Volta",
+        logo: ""
+    },
+    {
+        name: "Ghana Baptist University College",
+        nickname: "GBUC",
+        founded: 2006,
+        location: "Abuakwa, Kumasi, Ashanti",
+        logo: ""
+    },
+    {
+        name: "Kings University College",
+        nickname: "KUC",
         founded: 0,
+        location: "Aplaku Hills, Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Maranatha University College",
+        nickname: "MUC",
+        founded: 1972,
+        location: "Sowutuom, Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Meridian (Insaaniyya) University College",
+        nickname: "MEDUCOL",
+        founded: 0,
+        location: "Weija, Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Pan African Christian University College",
+        nickname: "PACUC",
+        founded: 1978,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Wisconsin International University College",
+        nickname: "WIUC",
+        founded: 2000,
+        location: "Agbogba Junction, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Advanced Business University College",
+        nickname: "ABUC",
+        founded: 0,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "BlueCrest University College",
+        nickname: "BCUC",
+        founded: 2000,
+        location: "Accra, Greater Accra Kumasi, Ashanti",
+        logo: ""
+    },
+    {
+        name: "Jayee University College",
+        nickname: "JUC",
+        founded: 1988,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "University College of Management Studies",
+        nickname: "UCOMS",
+        founded: 1974,
+        location: "Accra, Greater Accra Kumasi, Ashanti",
+        logo: ""
+    },
+    {
+        name: "Webster University Ghana Campus",
+        nickname: "Webster",
+        founded: 2012,
+        location: "Luanda Close, East Legon, Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Sikkim Manipal University Ghana LC",
+        nickname: "SMUG",
+        founded: 2008,
+        location: "Ring Road, Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Sikkim Manipal University, Kumasi",
+        nickname: "SMUG",
+        founded: 2011,
+        location: "CityStyle Building, Stadium Road, Kumasi, Ashanti Accra",
+        logo: ""
+    },
+    {
+        name: "Ghana Christian University College",
+        nickname: "GCUC",
+        founded: 1966,
+        location: "Kumasi, Ashanti",
+        logo: ""
+    },,
+    {
+        name: "Ghana Christian University College",
+        nickname: "GCUC",
+        founded: 1974,
+        location: "Dodowa, Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "Zenith University College",
+        nickname: "ZUC",
+        founded: 2001,
+        location: "La, Accra, Greater Accra Kumasi, Ashanti",
+        logo: ""
+    },
+    {
+        name: "China Europe International Business School",
+        nickname: "CEIBS",
+        founded: 1994,
+        location: "Accra, Greater Accra",
+        logo: ""
+    },
+    {
+        name: "The Bible University College of Ghana",
+        nickname: "BUCG",
+        founded: 0,
+        location: "Akuapem, Eastern Region",
+        logo: ""
+    },
+    {
+        name: "Ghana Bible College",
+        nickname: "GBC",
+        founded: 1962,
         location: "",
         logo: ""
     },
     {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
+        name: "North American Center for Professional Studies",
+        nickname: "NACPS",
+        founded: 2011,
+        location: "Kasoa, Central Region",
         logo: ""
     },
     {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
-        logo: ""
-    },
-    {
-        name: "",
-        nickname: "",
-        founded: 0,
-        location: "",
+        name: "Premier Institute of Law Enforcement Management and Administration",
+        nickname: "PILEMA",
+        founded: 2001,
+        location: "Accra, Greater Accra",
         logo: ""
     }
 ]
