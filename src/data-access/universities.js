@@ -320,7 +320,9 @@ const universities = [
         nickname: "NAFTI",
         founded: 1978,
         location: "Accra, Greater Accra",
-        logo: "",
+        logo: "https://www.nafti.edu.gh/themes/nafti_windows8//css/default/images/nafti_logo.png",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/971755_670689869624878_1819353635_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeH6J0F_ApButQTds-fJn5gY5FlVbSLPWATkWVVtIs9YBPZFRd3Ixj1fOIw22ClwPAPYDAfzpxODe2XgGNVYl6lU&_nc_ohc=j56h8gKOj4IAX8QJdrY&_nc_oc=AQmEwt7nUeXDQNtNYaxVctPbTfytR_n3y9OrqxZ_TdGnALINfTAcq8ViQ6cbG1ohilo&_nc_ht=scontent.facc6-1.fna&oh=00_AT8vZvyWe446CBWyMtBOhdsm-xoV8xPPXjRVW7pPQyayAg&oe=6291FB56",
+        website: "https://www.nafti.edu.gh",
         type: "public"
     },
     {
@@ -328,7 +330,9 @@ const universities = [
         nickname: "RMU",
         founded: 2007,
         location: "Accra, Greater Accra",
-        logo: "",
+        logo: "https://rmu.edu.gh/wp-content/uploads/2019/09/rmulogo-exp-3.png",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/26734429_812202768953231_5921091229880445520_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGoBPAEvnM2SrZCnpC1vf4gRtBBo8EgsYtG0EGjwSCxi5UYxpdV7310ceR21SmQMhLDp3TN95wPiOEAL4ZCkgNd&_nc_ohc=6gPyNUa5-ukAX_ggxAX&_nc_ht=scontent.facc6-1.fna&oh=00_AT-1By80pmD7xWrxMh-d1133ZN5H4D9OPpn2qqd24TjTqw&oe=628F9EDE",
+        website: "https://rmu.edu.gh",
         type: "private"
     },
     {
@@ -337,6 +341,8 @@ const universities = [
         founded: 2017,
         location: "Accra, Greater Accra",
         logo: "",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/26734429_812202768953231_5921091229880445520_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGoBPAEvnM2SrZCnpC1vf4gRtBBo8EgsYtG0EGjwSCxi5UYxpdV7310ceR21SmQMhLDp3TN95wPiOEAL4ZCkgNd&_nc_ohc=6gPyNUa5-ukAX_ggxAX&_nc_ht=scontent.facc6-1.fna&oh=00_AT-1By80pmD7xWrxMh-d1133ZN5H4D9OPpn2qqd24TjTqw&oe=628F9EDE",
+        website: "https://rmu.edu.gh",
         type: "public"
     },
     {
