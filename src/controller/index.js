@@ -5,10 +5,12 @@
  * Copyright ghana-universities-list
  */
 
-import { listUniversities } from '../use-case'
+import {filterUniversities, listUniversities } from '../use-case'
 import makeGetUniversities from './universities'
+import makeFiltersUniversities from "./filter"
 import notFound from './404'
 
 const getUniversities = makeGetUniversities({ listUniversities })
+const filterUniversity = makeFiltersUniversities({ filterUniversities })
 
-export { getUniversities, notFound }
+export { getUniversities, notFound, filterUniversity }

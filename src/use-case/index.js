@@ -6,8 +6,10 @@
  */
 
 import makeListUniversities from './universities'
+import makeFilterUniversities from "./filter"
 import universitiesDb from '../data-access'
 
 const listUniversities = makeListUniversities({ universitiesDb })
+const filterUniversities = makeFilterUniversities({ universitiesDb })
 
-export { listUniversities }
+export { listUniversities, filterUniversities }

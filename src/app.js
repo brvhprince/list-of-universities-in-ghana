@@ -8,7 +8,8 @@
 import express from 'express'
 import {
     getUniversities,
-    notFound
+    notFound,
+    filterUniversity
 } from './controller'
 import { makeCallback } from './framework'
 import cors from 'cors'
@@ -20,6 +21,8 @@ app.use(cors())
 
 app.get('/universities/:id', makeCallback(getUniversities))
 app.get('/universities', makeCallback(getUniversities))
+app.get('/info', makeCallback(filterUniversity))
+app.post('/info', makeCallback(filterUniversity))
 app.use(makeCallback(notFound))
 
 // for heroku deployment

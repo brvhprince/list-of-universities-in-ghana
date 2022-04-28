@@ -33,13 +33,26 @@ export default function makeUniversitiesDb ({ makeDb }) {
         const results = makeDb.filter((universities) => {
             for (let university of universities) {
                 if (filters.founded) {
-
+                    return university.founded === parseInt(filters.founded)
+                }
+                if (filters.name) {
+                    return university.name.includes(filters.name)
+                }
+                if (filters.location) {
+                    return university.location.includes(filters.location)
+                }
+                if (filters.nickname) {
+                    return university.nickname === filters.nickname
+                }
+                if (filters.type) {
+                    return university.type === filters.type
                 }
             }
+            return false
         })
         return {
             data: results,
-            total: 1,
+            total: results.length,
         }
 
     }
