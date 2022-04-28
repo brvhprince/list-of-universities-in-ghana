@@ -21,8 +21,8 @@ app.use(cors())
 
 app.get('/universities/:id', makeCallback(getUniversities))
 app.get('/universities', makeCallback(getUniversities))
-app.get('/info', makeCallback(filterUniversity))
-app.post('/info', makeCallback(filterUniversity))
+app.get('/filter', makeCallback(filterUniversity))
+app.post('/filter', makeCallback(filterUniversity))
 app.use(makeCallback(notFound))
 
 // for heroku deployment

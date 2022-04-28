@@ -13,7 +13,7 @@ export default async function notFound () {
             error: 'Houston, we lost you',
             all_universities: '/universities',
             specific_university: '/universities/{nickname}',
-            info: '/info/{filters}',
+            filter: '/filter/{filters}',
             filters: {
                 method: 'GET | POST',
                 data: '{founded} {name} {nickname} {location} {type}'
