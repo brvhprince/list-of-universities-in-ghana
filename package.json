@@ -1,0 +1,42 @@
+{
+  "name": "ghana-universities-list",
+  "version": "1.0.0",
+  "description": "A list of universities and colleges in ghana",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brvhprince/list-of-universities-in-ghana.git"
+  },
+  "keywords": [
+    "ghana",
+    "universities",
+    "colleges",
+    "universities",
+    "in",
+    "ghana",
+    "colleges",
+    "in",
+    "ghana"
+  ],
+  "author": "Prince Takyi Akomea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brvhprince/list-of-universities-in-ghana/issues"
+  },
+  "homepage": "https://github.com/brvhprince/list-of-universities-in-ghana#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.0"
+  }
+}
