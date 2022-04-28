@@ -26,7 +26,6 @@ PATH: /universities/{nickname}
 ```
 List details of a specific university
 
-> Please see `codes.txt` for university nicknames
 
 #### Multiple Filter Options 
 ```
@@ -35,15 +34,15 @@ List details of a specific university
 PATH: /filter[FilterOtions]
 ```
 
-### Filter Options
+### FilterOptions
 
 ```json
 {
-  "founded": 2020, // case is MATCH
-  "name": "Energy", // case is LIKE
-  "nickname": "UENR", // case is MATCH
-  "location": "Accra and Kumasi", // case is LIKE
-  "type": "private" // case is MATCH
+  "founded": 2020,
+  "name": "Energy", 
+  "nickname": "UENR",
+  "location": "Accra and Kumasi", 
+  "type": "private"
 }
 ```
 
@@ -124,7 +123,16 @@ interface university {
 ```
 
 **Filter Example with GET**
+  
+```text
+  PARAMETER    :   CASE
+  name         :   Like
+  founded      :   Match
+  nickname     :   Match
+  location     :   Like
+  type         :   Match
 
+```
 `https://universities-in-ghana.com/filter?type=private&location=Eastern`
 
 
