@@ -4,6 +4,7 @@
  * Created by Pennycodes on 4/28/2022.
  * Copyright ghana-universities-list
  */
+import {re} from "@babel/core/lib/vendor/import-meta-resolve";
 
 export default function makeUniversitiesDb ({ makeDb }) {
     return Object.freeze({
@@ -29,25 +30,27 @@ export default function makeUniversitiesDb ({ makeDb }) {
     }
 
     async function findByFilter ({ filters }) {
-     
+        const { founded, name, location, nickname, type } = filters
         const results = makeDb.filter((university) => {
-                if (filters.founded) {
-                    return university.founded === parseInt(filters.founded)
+
+                if (founded) {
+                   if (university.founded !== parseInt(founded)) return false
                 }
-                if (filters.name) {
-                    return university.name.includes(filters.name)
+                if (name) {
+                    if (!university.name.includes(name)) return false
                 }
-                if (filters.location) {
-                    return university.location.includes(filters.location)
+                if (location) {
+                  if (!university.location.includes(location)) return false
                 }
-                if (filters.nickname) {
-                    return university.nickname.toUpperCase() === filters.nickname.toUpperCase()
+                if (nickname) {
+                    if (university.nickname.toUpperCase() !== nickname.toUpperCase()) return false
                 }
-                if (filters.type) {
-                    return university.type === filters.type
+                if (type) {
+                   if (university.type !== type) return false
                 }
 
-            return false
+            return true
+
         })
         return {
             data: results,
