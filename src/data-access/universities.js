@@ -160,7 +160,7 @@ const universities = [
         nickname: "ATU",
         founded: 1949,
         location: "Accra, Greater Accra",
-        logo: "http://sites.myatu.net/wp-content/uploads/2020/05/unnamed-1-300x113.png",
+        logo: "https://sites.myatu.net/wp-content/uploads/2020/05/unnamed-1-300x113.png",
         icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/16299227_679045162266964_8594593577193386850_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGbNEN96B9dX1jqx6vUwY_lkvi0ePYsIkuS-LR49iwiS4y2OxcfmIMooF1N7OGGDRYlb8e52gwRj2NvawM4yD62&_nc_ohc=IRrZ0dBmBUkAX_VrFNu&_nc_oc=AQkMcTlnFAW6fXcuQnMfI9hcPGtRi0dDtjYAEFS3jSgnRHHfnePixpg4s07MQqL90-8&tn=AtI92sas6d_Eo8cX&_nc_ht=scontent.facc6-1.fna&oh=00_AT8QVwtQYrfkm5yBRbmaUViFaRupkRCpeqVhTKVa4iZiPQ&oe=628F3976",
         website: "https://atu.edu.gh",
         type: "public"
@@ -170,105 +170,149 @@ const universities = [
         nickname: "BTU",
         founded: 1999,
         location: "Bolgatanga, Upper East Region",
-        logo: "https://en.wikipedia.org/wiki/File:Bolgatanga_Technical_University_logo.jpg"
+        logo: "https://www.bolgatu.edu.gh/wp-content/uploads/2021/11/IMG-20211110-WA0005-removebg-preview.png",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Bolgatanga_Technical_University_logo.jpg",
+        website: "https://www.bolgatu.edu.gh",
+        type: "public"
     },
     {
         name: "Cape Coast Technical University",
         nickname: "CCTU",
         founded: 1984,
         location: "Cape Coast, Central",
-        logo: ""
+        logo: "https://cctu.edu.gh/site/img/logo/logo_header.png",
+        icon: "https://globaltalentmentoring.org/wp-content/uploads/2020/10/CCTU_logo.png",
+        website: "https://cctu.edu.gh",
+        type: "public"
     },
     {
         name: "Kumasi Technical University",
         nickname: "KsTU",
         founded: 1954,
         location: "Kumasi, Ashanti",
-        logo: ""
+        logo: "https://kstu.edu.gh/sites/default/files/logo.png",
+        icon: "https://kstu.edu.gh/sites/default/files/logo.png",
+        website: "https://kstu.edu.gh",
+        type: "public"
     },
     {
         name: "Koforidua Technical University",
         nickname: "KTU",
         founded: 1997,
         location: "Koforidua, Eastern",
-        logo: ""
+        logo: "https://www.ktu.edu.gh/wp-content/uploads/2022/02/ktu_logo1.png",
+        icon: "https://www.ktu.edu.gh/wp-content/uploads/2022/02/KTULOGO-768x768.png",
+        website: "https://ktu.edu.gh",
+        type: "public"
     },
     {
         name: "Tamale Technical University",
         nickname: "TATU",
         founded: 1951,
         location: "Tamale, Northern",
-        logo: ""
+        logo: "https://tatu.edu.gh/wp-content/uploads/2021/08/finallogo-1.png",
+        icon: "https://pbs.twimg.com/profile_images/1335414406830809090/2tVb_ub5_400x400.jpg",
+        website: "https://tatu.edu.gh",
+        type: "public"
     },
     {
         name: "Ho Technical University",
         nickname: "HTU",
         founded: 1968,
         location: "Ho, Volta",
-        logo: ""
+        logo: "https://htu.edu.gh/images/logo.jpg",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/15895259_614869888724082_8590272208077335825_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGAKYUo_3fhFf6a2AsDUUO7KUc0HQw530QpRzQdDDnfRBN82k4OgDC6BR-v21rercQKLwvTjX1lvoumMtKBFEs-&_nc_ohc=4FKKtEliYqgAX_Oae61&_nc_ht=scontent.facc6-1.fna&oh=00_AT-RqHmmu89E8qf2M9tPrk9NU2GXgxFbrCVhsY3_SR9myg&oe=6291A498",
+        website: "https://htu.edu.gh",
+        type: "public"
     },
     {
         name: "Takoradi Technical University",
         nickname: "TTU",
         founded: 1954,
         location: "Takoradi, Western",
-        logo: ""
+        logo: "https://ttu.edu.gh/sites/default/files/TTU%20FINAL%20LOGO-02.png",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.6435-9/38672487_292015831565086_1993573507832741888_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGhuGiZyt5-_lc3fs3IwwOLrdjJgdfIBVyt2MmB18gFXJSv19FIBSEf_Q4P7f7pT4BGFkhPDlx-VXv5zEKNiFR4&_nc_ohc=gIpGXz90slIAX8zdLuZ&_nc_ht=scontent.facc6-1.fna&oh=00_AT9B3jRRp8ZXmeIyx1f3gczFxUsITwuYIJC2yBPmUFZfyw&oe=628E5B2D",
+        website: "https://ttu.edu.gh",
+        type: "public"
     },
     {
         name: "Sunyani Technical University",
         nickname: "STU",
         founded: 1967,
         location: "Sunyani, Bono",
-        logo: ""
+        logo: "https://stu.edu.gh/images/stu-logo.png",
+        icon: "https://stu.edu.gh/images/stu-logo.png",
+        website: "https://stu.edu.gh",
+        type: "public"
     },
     {
         name: "Wa Technical University",
         nickname: "WTU",
         founded: 2016,
         location: "Wa, Upper West Region",
-        logo: ""
+        logo: "https://dhltu.edu.gh/wp-content/uploads/2021/09/logo-dhltu.png",
+        icon: "https://dhltu.edu.gh/wp-content/uploads/2021/09/logo-dhltu.png",
+        website: "https://dhltu.edu.gh",
+        type: "public"
     },
     {
         name: "Ghana Armed Forces Command and Staff College",
         nickname: "GAFCSC",
         founded: 1963,
         location: "Accra, Greater Accra",
-        logo: ""
+        logo: "https://gafcscmil.edu.gh/wp-content/uploads/2021/03/GAFCSC-LOGO-scaled.jpg",
+        icon: "https://gafcscmil.edu.gh/wp-content/uploads/2021/01/cropped-gafcsc-logo.png",
+        website: "https://gafcscmil.edu.gh",
+        type: "public"
     },
     {
         name: "Ghana Institute of Journalism",
         nickname: "GIJ",
         founded: 1959,
         location: "Accra, Greater Accra",
-        logo: ""
+        logo: "https://gij.edu.gh/wp-content/uploads/2020/11/gijwe.png",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.6435-9/98190138_3184813578251563_1939910219341496320_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHSpyo-f-ZejPnB3Q2COCnvLiit9Ld5X_cuKK30t3lf93FC7RD77DvXpqDj88xmPqTz38inh0EZ0MKmKzfN7mrN&_nc_ohc=t_UpgTK1qR0AX-h0hjd&_nc_ht=scontent.facc6-1.fna&oh=00_AT_gzDfAv3oTOIdN5cO1GBWc8ewsqxKM6P9Rm43xVmhGmg&oe=62914BB3",
+        website: "https://gij.edu.gh",
+        type: "public"
     },
     {
         name: "Ghana Institute of Languages",
         nickname: "GIL",
         founded: 1961,
         location: "Accra, Greater Accra",
-        logo: ""
+        logo: "http://gil.edu.gh/images/logo-gil.png",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t39.30808-6/271736321_226064349716549_5363640547959858944_n.png?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEU3L3yhzds089ATxUJ6aLtEMgvlpGVtmEQyC-WkZW2YcamMOa7WFpDKZcHRRrrx7juYZ0iEbaNAter_mqDjuez&_nc_ohc=3qdRKw2sG28AX8uJG2d&_nc_zt=23&_nc_ht=scontent.facc6-1.fna&oh=00_AT93qLbBz8CfENRqkFZRltY140vFkYoa17TilqGrNpJx1w&oe=626FD467",
+        website: "http://gil.edu.gh",
+        type: "public"
     },
     {
         name: " Ghana School of Surveying and Mapping",
         nickname: "GSSM-ITC",
         founded: 1921,
         location: "Accra, Greater Accra",
-        logo: ""
+        logo: "https://gssmitc.edu.gh/img/images/logo.png",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/11891220_749877951790737_9103371516094575284_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFHTDlFT1K_PpLzbZGqZSAqCjsghDCHsb4KOyCEMIexvkpDD1J1EsOTgP5RAysEH8RrTwnzU2Vuetnk3VBi88qK&_nc_ohc=aiFKaCeBzO4AX_qXZiC&tn=AtI92sas6d_Eo8cX&_nc_ht=scontent.facc6-1.fna&oh=00_AT9UXye_1SOdwrAu7LWQaZ7GdxRtwAF-YWlXmA4gqrI9dg&oe=628FDFAF",
+        website: "https://gssmitc.edu.gh",
+        type: "public"
     },
     {
         name: "Institution of Local Government Studies",
         nickname: "ILGS",
         founded: 1999,
         location: "Accra, Greater Accra",
-        logo: ""
+        logo: "https://www.ilgs-edu.org/images/logo.png",
+        icon: "https://www.ilgs-edu.org/images/logo.png",
+        website: "https://www.ilgs-edu.org",
+        type: "public"
     },
     {
         name: "Kofi Annan International Peacekeeping Training Centre",
         nickname: "KAIPTC",
         founded: 1998,
         location: "Accra, Greater Accra",
-        logo: "",
+        logo: "https://www.kaiptc.org/wp-content/uploads/2016/12/logo@2x.png",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/2/20/KAIPTC_%28Kofi_Annan_International_Peacekeeping_Training_Centre%29_logo.jpg",
+        website: "https://www.kaiptc.org",
         type: "public"
     },
     {
