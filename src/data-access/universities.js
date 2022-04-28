@@ -9,8 +9,10 @@ const universities = [
         name: "University of Ghana",
         nickname: "legon",
         founded: 1948,
-        location: "Legon, Accra, Korle Bu and Atomic, Greater Accra, including over ten workers' colleges all over the ten regions of Ghana",
-        logo: "",
+        location: "Legon, Accra, Korle Bu and Atomic, Greater Accra",
+        logo: "https://www.ug.edu.gh/sites/default/files/ug_standard_new_sl_1.png",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/6/64/University_of_Ghana.png",
+        website: "https://www.ug.edu.gh",
         type: "public"
     },
     {
@@ -18,105 +20,150 @@ const universities = [
         nickname: "KNUST",
         founded: 1952,
         location: "Kumasi, Ashanti",
-        logo: ""
+        logo: "https://www.knust.edu.gh/themes/custom/adepts/images/knustlogo.png",
+        icon: "https://upload.wikimedia.org/wikipedia/en/b/b4/Knust_seal.jpg",
+        website: "https://www.knust.edu.gh",
+        type: "public"
     },
     {
         name: "University of Cape Coast",
         nickname: "Cape Vars",
         founded: 1961,
         location: "Cape Coast, Central",
-        logo: ""
+        logo: "https://www.ucc.edu.gh/sites/default/files/ucc_logo_new.png",
+        icon: "https://ucc.edu.gh/sites/default/files/ucc-logo.webp",
+        website: "https://www.ucc.edu.gh",
+        type: "public"
     },
     {
         name: "CK Tadem University for Technology and Applied Sciences",
         nickname: "CKT-UTAS",
         founded: 2020,
         location: "Navrongo, Upper East",
-        logo: ""
+        logo: "https://cktutas.edu.gh/wp-content/uploads/2021/05/logo.png",
+        icon: "https://cktutas.edu.gh/wp-content/uploads/2020/06/CK-LOGO-symbol-300x297.png",
+        website: "https://www.cktutas.edu.gh",
+        type: "public"
     },
     {
         name: "University of Education, Winneba",
         nickname: "UEW",
         founded: 1992,
         location: "Winneba, Central",
-        logo: ""
+        logo: "https://www.uew.edu.gh/sites/default/files/uew_logo_web.png",
+        icon: "https://www.uew.edu.gh/sites/default/files/uew_logo_web.png",
+        website: "https://www.uew.edu.gh",
+        type: "public"
     },
     {
         name: "Simon Diedong Dombo University for Business and Integrated Development Studies",
         nickname: "SDD-UBIDS",
         founded: 2020,
         location: "Wa, Upper West",
-        logo: ""
+        logo: "https://ubids.edu.gh/wp-content/uploads/2021/12/UBIDS-LOGO-HEADER.jpg",
+        icon: "https://media-exp1.licdn.com/dms/image/C4D0BAQFdPWknOAl79A/company-logo_200_200/0/1604669766842?e=2147483647&v=beta&t=7zlwjmPwLECHSH1KQd4uk9wczBfITrNCdqWjKJlIg_Q",
+        website: "https://www.ubids.edu.gh",
+        type: "public"
     },
     {
         name: "Akenten Appiah Menkah University of Skills Training and Entrepreneurial Development, Kumasi",
-        nickname: "AAM-USTED",
+        nickname: "AAMUSTED",
         founded: 2020,
         location: "Kumasi and Mampong, Ashanti",
-        logo: ""
+        logo: "https://aamusted.edu.gh/web/resources/img/uniname.jpg",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t39.30808-6/273934791_366398808661850_4516587644913768999_n.jpg?stp=cp0_dst-jpg_e15_p64x64_q65&_nc_cat=104&ccb=1-5&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_eui2=AeFUQHR_lNmXiaZey6nh1tkX0bAQuKfmqKrRsBC4p-aoqiRphGSIbXnkAdkTcSaQjP55_MeEhWEqCQO3AEr0QHI4&_nc_ohc=O8rtGQznYVIAX8Sj_5n&_nc_zt=23&_nc_ht=scontent.facc6-1.fna&oh=00_AT_my1G9oxZaquK5UeuBknftUPpzPbujmWgZ0t40zMFsPg&oe=626E701F",
+        website: "https://aamusted.edu.gh",
+        type: "public"
     },
     {
         name: "University for Development Studies",
         nickname: "UDS",
         founded: 1992,
         location: "Tamale, Northern",
-        logo: ""
+        logo: "https://uds.edu.gh/images/logo_header.png",
+        icon: "https://uds.edu.gh/images/uds_emblem.png",
+        website: "https://uds.edu.gh",
+        type: "public"
     },
     {
         name: "University of Professional Studies",
         nickname: "UPS",
         founded: 1965,
         location: "Accra, Greater Accra",
-        logo: ""
+        logo: "https://upsa.edu.gh/wp-content/uploads/2020/11/upsa-logoacbsp.png",
+        icon: "https://admissions.upsa.edu.gh/wp-content/uploads/2020/04/upsa-favi.png",
+        website: "https://upsa.edu.gh",
+        type: "public"
     },
     {
         name: "University of Mines and Technology",
         nickname: "UMAT",
         founded: 2001,
         location: "Tarkwa, Western",
-        logo: ""
+        logo: "https://umat.edu.gh/templates/gk_university/images/logo.png",
+        icon: "https://conference.umat.edu.gh/wp-content/uploads/2018/01/UMaT-logo-238x300.jpg",
+        website: "https://umat.edu.gh",
+        type: "public"
     },
     {
         name: "University of Health and Allied Sciences",
         nickname: "UHAS",
         founded: 2011,
         location: "Ho, Volta",
-        logo: ""
+        logo: "https://www.uhas.edu.gh/images/sampledata/icetheme/2021uhas-web-logo.png",
+        icon: "https://www.uhas.edu.gh/logo.png",
+        website: "https://uhas.edu.gh",
+        type: "public"
     },
     {
         name: "University of Energy And Natural Resources",
         nickname: "UENR",
         founded: 2012,
         location: "Sunyani, Bono",
-        logo: ""
+        logo: "https://uenr.edu.gh/humputsu/2021/01/Artboard-1.png",
+        icon: "https://uenr.edu.gh/humputsu/2021/02/uenr-logo-768x998.png",
+        website: "https://uenr.edu.gh",
+        type: "public"
     },
     {
         name: "University of Environment and Sustainable Development",
         nickname: "UESD",
         founded: 2020,
         location: "Somanya, Eastern Region",
-        logo: ""
+        logo: "https://apps.uesd.edu.gh/admissions/public/assets/img/mini-banner.jpg",
+        icon: "https://apps.uesd.edu.gh/admissions/public/assets/img/mini-banner.jpg",
+        website: "https://uesd.edu.gh",
+        type: "public"
     },
     {
         name: "Ghana Institute of Management and Public Administration",
         nickname: "GIMPA",
         founded: 1961,
         location: "Legon, Accra",
-        logo: ""
+        logo: "https://www.gimpa.edu.gh/wp-content/themes/GIMPS/images/logo_g.png",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/d/d9/GIMPA_%28Ghana_Institute_of_Management_and_Public_Administration%29_logo.jpg",
+        website: "https://gimpa.edu.gh",
+        type: "public"
     },
     {
         name: "Ghana Communication Technology University",
         nickname: "GCTU",
         founded: 2005,
         location: "Tesano, Accra",
-        logo: ""
+        logo: "https://site.gctu.edu.gh/wp-content/themes/gtuc/assets/images/logo.png",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.6435-9/121963455_3213940908728742_5776996561519349599_n.png?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeG4p6jDWU_90aIDeT3x9-AAjQvwBGNCMYyNC_AEY0IxjB1WaO5fJjGaLrhDHb_Zm8sNqw9i4gaC2n0FB-F108op&_nc_ohc=MmW8JI-w5eAAX_Cp1nU&tn=AtI92sas6d_Eo8cX&_nc_ht=scontent.facc6-1.fna&oh=00_AT-hPCJEc1DE6H5ge1SUaGKRyBIokr7Uk4SuZm0el3yPFQ&oe=62919916",
+        website: "https://site.gctu.edu.gh",
+        type: "public"
     },
     {
         name: "Accra Technical University",
         nickname: "ATU",
         founded: 1949,
         location: "Accra, Greater Accra",
-        logo: ""
+        logo: "http://sites.myatu.net/wp-content/uploads/2020/05/unnamed-1-300x113.png",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/16299227_679045162266964_8594593577193386850_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGbNEN96B9dX1jqx6vUwY_lkvi0ePYsIkuS-LR49iwiS4y2OxcfmIMooF1N7OGGDRYlb8e52gwRj2NvawM4yD62&_nc_ohc=IRrZ0dBmBUkAX_VrFNu&_nc_oc=AQkMcTlnFAW6fXcuQnMfI9hcPGtRi0dDtjYAEFS3jSgnRHHfnePixpg4s07MQqL90-8&tn=AtI92sas6d_Eo8cX&_nc_ht=scontent.facc6-1.fna&oh=00_AT8QVwtQYrfkm5yBRbmaUViFaRupkRCpeqVhTKVa4iZiPQ&oe=628F3976",
+        website: "https://atu.edu.gh",
+        type: "public"
     },
     {
         name: "Bolgatanga Technical University",
@@ -215,14 +262,6 @@ const universities = [
         founded: 1999,
         location: "Accra, Greater Accra",
         logo: ""
-    },
-    {
-        name: "University of Professional Studies, Accra",
-        nickname: "UPSA",
-        founded: 1965,
-        location: "Legon, Greater Accra",
-        logo: "",
-        type: "public"
     },
     {
         name: "Kofi Annan International Peacekeeping Training Centre",
