@@ -19,8 +19,8 @@ export default function makeFiltersUniversities ({ filterUniversities }) {
                 statusCode: 200,
                 body: {
                     status: true,
-                    universities: returnedUniversities.data ?? [],
                     total: returnedUniversities.total ?? 0,
+                    universities: returnedUniversities.data ?? [],
                 }
             }
         } catch (e) {

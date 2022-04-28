@@ -18,7 +18,7 @@ export default function makeGetUniversities ({ listUniversities }) {
                 status: true,
                 total: returnedUniversities.total ?? 0,
             }
-            if (returnedUniversities.constructor === Array) {
+            if (returnedUniversities.data.constructor === Array) {
                 body.universities = returnedUniversities.data
             }
             else {

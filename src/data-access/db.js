@@ -4,7 +4,6 @@
  * Created by Pennycodes on 4/28/2022.
  * Copyright ghana-universities-list
  */
-import {re} from "@babel/core/lib/vendor/import-meta-resolve";
 
 export default function makeUniversitiesDb ({ makeDb }) {
     return Object.freeze({
@@ -46,7 +45,7 @@ export default function makeUniversitiesDb ({ makeDb }) {
                     if (university.nickname.toUpperCase() !== nickname.toUpperCase()) return false
                 }
                 if (type) {
-                   if (university.type !== type) return false
+                   if (university.type !== type.toLowerCase()) return false
                 }
 
             return true
