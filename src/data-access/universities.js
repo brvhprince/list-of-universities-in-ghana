@@ -648,7 +648,7 @@ const universities = [
     },
     {
         name: "KAAF University College",
-        nickname: "KUC",
+        nickname: "KAAF",
         founded: 2007,
         location: "Gomoa Buduburam, Central Region",
         logo: "https://i0.wp.com/www.kaafuni.edu.gh/wp-content/uploads/2021/08/cropped-KAAF-LOGO.jpg",
@@ -779,7 +779,7 @@ const universities = [
     {
         name: "Kings University College",
         nickname: "KUC",
-        founded: 0,
+        founded: 2009,
         location: "Aplaku Hills, Accra, Greater Accra",
         logo: "https://static.wixstatic.com/media/de88be_47d2525bf89c46f1868f79f42d56e588.jpg/v1/fill/w_156,h_156,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/de88be_47d2525bf89c46f1868f79f42d56e588.jpg",
         icon: "https://static.wixstatic.com/media/de88be_47d2525bf89c46f1868f79f42d56e588.jpg/v1/fill/w_156,h_156,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/de88be_47d2525bf89c46f1868f79f42d56e588.jpg",
@@ -799,7 +799,7 @@ const universities = [
     {
         name: "Meridian (Insaaniyya) University College",
         nickname: "MEDUCOL",
-        founded: 0,
+        founded: 2014,
         location: "Weija, Accra, Greater Accra",
         logo: "https://lh3.googleusercontent.com/p/AF1QipOZ8y2r9TJcitKJUg4k7p5U6_j5FdXa9ToPZxP1=w1080-h608-p-no-v0",
         icon: "https://lh3.googleusercontent.com/p/AF1QipOZ8y2r9TJcitKJUg4k7p5U6_j5FdXa9ToPZxP1=w1080-h608-p-no-v0",
@@ -819,7 +819,7 @@ const universities = [
     {
         name: "Advanced Business University College",
         nickname: "ABUC",
-        founded: 0,
+        founded: 2005,
         location: "Accra, Greater Accra",
         logo: "https://www.advancedbusinesscollege.org/images/logo-full.png",
         icon: "https://advancedbusinesscollege.org/wp-content/uploads/2022/01/logo-badge.png",
@@ -867,28 +867,8 @@ const universities = [
         type: "private"
     },
     {
-        name: "Sikkim Manipal University, Kumasi",
-        nickname: "SMUG",
-        founded: 2011,
-        location: "CityStyle Building, Stadium Road, Kumasi, Ashanti Accra",
-        logo: "https://pbs.twimg.com/profile_images/1151352186443460608/JWYZcoSV_400x400.jpg",
-        icon: "https://pbs.twimg.com/profile_images/1151352186443460608/JWYZcoSV_400x400.jpg",
-        website: "https://en.wikipedia.org/wiki/Sikkim_Manipal_University,_Ghana_Learning_Centre,_Accra",
-        type: "private"
-    },
-    {
         name: "Ghana Christian University College",
-        nickname: "GCUC",
-        founded: 1966,
-        location: "Kumasi, Ashanti",
-        logo: "https://lh3.googleusercontent.com/p/AF1QipPhh5mOuchtl_zCOcZuAZ4gP14wIdeHgK6ciaEc=w1080-h608-p-no-v0",
-        icon: "https://lh3.googleusercontent.com/p/AF1QipPhh5mOuchtl_zCOcZuAZ4gP14wIdeHgK6ciaEc=w1080-h608-p-no-v0",
-        website: "https://ghana-christian-university-college.business.site",
-        type: "private"
-    },
-    {
-        name: "Ghana Christian University College",
-        nickname: "GCUC",
+        nickname: "GCUCSPS",
         founded: 1974,
         location: "Dodowa, Accra, Greater Accra",
         logo: "https://lh3.googleusercontent.com/p/AF1QipPhh5mOuchtl_zCOcZuAZ4gP14wIdeHgK6ciaEc=w1080-h608-p-no-v0",
@@ -918,31 +898,43 @@ const universities = [
     },
     {
         name: "The Bible University College of Ghana",
-        nickname: "BUCG",
-        founded: 0,
+        nickname: "TBCG",
+        founded: 2013,
         location: "Akuapem, Eastern Region",
-        logo: ""
+        logo: "https://static.wixstatic.com/media/945103_f4eded42abc0f514a347b830cd1aac15.jpg/v1/fill/w_110,h_110,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/945103_f4eded42abc0f514a347b830cd1aac15.jpg",
+        icon: "https://static.wixstatic.com/media/945103_f4eded42abc0f514a347b830cd1aac15.jpg/v1/fill/w_110,h_110,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/945103_f4eded42abc0f514a347b830cd1aac15.jpg",
+        website: "https://www.tbcghana.net",
+        type: "private"
     },
     {
         name: "Ghana Bible College",
         nickname: "GBC",
         founded: 1962,
-        location: "",
-        logo: ""
+        location: "Kumasi, Ashanti",
+        logo: "https://ghanabiblecollege.edu.gh/img/logo/ww.png",
+        icon: "https://ghanabiblecollege.edu.gh/img/fav.png",
+        website: "https://ghanabiblecollege.edu.gh",
+        type: "private"
     },
     {
         name: "North American Center for Professional Studies",
         nickname: "NACPS",
         founded: 2011,
         location: "Kasoa, Central Region",
-        logo: ""
+        logo: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/409141_149269638522181_1518581008_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGb4lDg7GPbsLzSLZnagToE3eIY7rfLSYTd4hjut8tJhKobOhpOZNQjJnTBw-vPOAAmbGo7G0HS7HprvyihQg3D&_nc_ohc=D5vhmh_cuJ0AX9LWpcm&_nc_ht=scontent.facc6-1.fna&oh=00_AT-aaT4aI_0U_FaXlA2Yh6StEGtBBHCnVf6rDGOgeJl3jw&oe=628F94BE",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/409141_149269638522181_1518581008_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGb4lDg7GPbsLzSLZnagToE3eIY7rfLSYTd4hjut8tJhKobOhpOZNQjJnTBw-vPOAAmbGo7G0HS7HprvyihQg3D&_nc_ohc=D5vhmh_cuJ0AX9LWpcm&_nc_ht=scontent.facc6-1.fna&oh=00_AT-aaT4aI_0U_FaXlA2Yh6StEGtBBHCnVf6rDGOgeJl3jw&oe=628F94BE",
+        website: "https://facebook.com/148837758565369/photos/a.149269635188848/149269638522181",
+        type: "private"
     },
     {
         name: "Premier Institute of Law Enforcement Management and Administration",
         nickname: "PILEMA",
         founded: 2001,
         location: "Accra, Greater Accra",
-        logo: ""
+        logo: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/164930_582998178385919_26305341_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeHN_4PFYZwSEmymzXQa509SVfnDG5JFL-dV-cMbkkUv543S2gxgdbZWaJhzB02VDK-cEZKDkvWZ9YtFW8jmhuwf&_nc_ohc=tE0Ch-QiXigAX_aPFKz&_nc_ht=scontent.facc6-1.fna&oh=00_AT_Ml1mB5_vm74YTvwVcpm3ffjC748WYnieWaLz4FAhbDw&oe=628FB257",
+        icon: "https://scontent.facc6-1.fna.fbcdn.net/v/t1.18169-9/554660_582995925052811_378627693_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFfc-gxOadAreqG4t5kMlGpp9hX4wRpSKan2FfjBGlIplzMn-3wVmT_BJXynCAGnWW2qcxj4n_kJ4tDmxTeGitY&_nc_ohc=pxYMkfC81f0AX-gi8gH&_nc_ht=scontent.facc6-1.fna&oh=00_AT8YBjDucoPKZrDQUmL89L1l4QxDsvsCIEPJY5LxoemGjw&oe=628F00B9",
+        website: "http://www.pilema.org",
+        type: "private"
     }
 ]
 

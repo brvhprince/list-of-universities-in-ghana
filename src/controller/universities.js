@@ -19,7 +19,7 @@ export default function makeGetUniversities ({ listUniversities }) {
                 statusCode: 200,
                 body: {
                     status: true,
-                    regions: returnedUniversities.data ?? [],
+                    universities: returnedUniversities.data ?? [],
                     total: returnedUniversities.total ?? 0,
                 }
             }

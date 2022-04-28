@@ -9,23 +9,37 @@ export default function makeUniversitiesDb ({ makeDb }) {
     return Object.freeze({
         findAll,
         findByNickname,
+        findByFilter
     })
     async function findAll () {
-        const districts = makeDb.map(item=>item.districts.length).reduce((sum, a) => sum + a, 0)
+
         return {
             data: makeDb,
-            total_regions: makeDb.length,
-            total_districts: districts
+            total: makeDb.length,
         }
     }
 
     async function findByNickname ({ nickname }) {
-        const results = makeDb.find((regions, _index) => regions.code === regionId.toUpperCase())
-        const districts = [results].map(item=>item.districts.length).reduce((sum, a) => sum + a, 0)
+        const results = makeDb.find((universities, _index) => universities.nickname.toUpperCase() === nickname.toUpperCase())
         return {
             data: results,
-            total_regions: 1,
-            total_districts: districts
+            total: 1,
+        }
+
+    }
+
+    async function findByFilter ({ filters }) {
+
+        const results = makeDb.filter((universities) => {
+            for (let university of universities) {
+                if (filters.founded) {
+
+                }
+            }
+        })
+        return {
+            data: results,
+            total: 1,
         }
 
     }
