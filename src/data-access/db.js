@@ -29,9 +29,8 @@ export default function makeUniversitiesDb ({ makeDb }) {
     }
 
     async function findByFilter ({ filters }) {
-
-        const results = makeDb.filter((universities) => {
-            for (let university of universities) {
+     
+        const results = makeDb.filter((university) => {
                 if (filters.founded) {
                     return university.founded === parseInt(filters.founded)
                 }
@@ -42,12 +41,12 @@ export default function makeUniversitiesDb ({ makeDb }) {
                     return university.location.includes(filters.location)
                 }
                 if (filters.nickname) {
-                    return university.nickname === filters.nickname
+                    return university.nickname.toUpperCase() === filters.nickname.toUpperCase()
                 }
                 if (filters.type) {
                     return university.type === filters.type
                 }
-            }
+
             return false
         })
         return {

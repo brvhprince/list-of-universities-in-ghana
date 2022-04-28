@@ -14,14 +14,20 @@ export default function makeGetUniversities ({ listUniversities }) {
             const returnedUniversities = await listUniversities({
                 nickname: httpRequest.params.id
             })
+            const body = {
+                status: true,
+                total: returnedUniversities.total ?? 0,
+            }
+            if (returnedUniversities.constructor === Array) {
+                body.universities = returnedUniversities.data
+            }
+            else {
+                body.university = returnedUniversities.data
+            }
             return {
                 headers,
                 statusCode: 200,
-                body: {
-                    status: true,
-                    universities: returnedUniversities.data ?? [],
-                    total: returnedUniversities.total ?? 0,
-                }
+                body
             }
         } catch (e) {
             // TODO: Error logging
