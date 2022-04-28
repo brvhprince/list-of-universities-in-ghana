@@ -4,6 +4,10 @@
   "description": "A list of universities and colleges in ghana",
   "main": "app.js",
   "scripts": {
+    "start": "node dist/app.js",
+    "build": "npm run clean && babel src -d dist",
+    "clean": "rimraf dist",
+    "dev": "nodemon --exec babel-node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
