@@ -7,7 +7,7 @@ A single endpoint returning a json-formatted response of Ghanaian universities a
 
 ## Usage
  ```
- EDNPOINT: https://universities-in-ghana.herokuapp.com
+ EDNPOINT: https://list-of-universities-in-ghana.onrender.com
 ```
 
 ### Url Params
@@ -68,7 +68,7 @@ interface university {
 
 **All Universities**
 
-`https://universities-in-ghana.herokuapp.com/universities`
+`https://list-of-universities-in-ghana.onrender.com/universities`
 
 ```json
 {
