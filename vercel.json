@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "list-of-universities-in-ghana",
+    "builds": [
+        {
+        "src": "src/app.js",
+        "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "/dist/app.js" }
+    ]
+}
